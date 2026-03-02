@@ -16,7 +16,7 @@
 
 ### Designsystem
 - Röjarn (Lukas Ruist)
-- Beten8 (Olle Betten)
+- Beten (Olle Betten)
 - Evelyn Lim
 
 ### Data
