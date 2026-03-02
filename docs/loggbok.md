@@ -61,3 +61,7 @@ Förstå vad alla olika moduler som vi blir tippsade om och vad de faktist gör.
 
 Idag så ska vi planera data migrerring för att veta hur sidan ska se ut vart content och allt ska vara.
 Ett problem är att sidan ännu inte är öppen så många kan inte än göra något, vi behöver också en sitemap som vi viss abehöver för att kunna börja jobba.
+
+
+
+Hej jag heter hugo
