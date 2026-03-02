@@ -64,7 +64,7 @@ Vi skapar också en modboard för att få en känsla på hur den ska kunna se ut
 Vi har valt ut färger som skall användas till sidan
 - Mörkblå #310866
 - Gul #ffe300
-- Mörkgul #ffc107
+- Branngul #ffc107
 - Mörkgrön #194c00
 - Vit #ffffff
 
