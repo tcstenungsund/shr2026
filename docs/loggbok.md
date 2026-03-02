@@ -53,12 +53,15 @@ Nästa lektion startar vi med att börja bygga på själva sidan i **Drupal**.
 ### Problem vi ska lösa
 - Förstå vad alla olika moduler som vi blir tipsade om faktiskt gör
 
-Problem vi ska lösa:
-
-Förstå vad alla olika moduler som vi blir tippsade om och vad de faktist gör.
+---
 
 ## Måndag 03 / 02
 
 Idag så ska vi planera data migrerring för att veta hur sidan ska se ut vart content och allt ska vara.
 Ett problem är att sidan ännu inte är öppen så många kan inte än göra något, vi behöver också en sitemap som vi viss abehöver för att kunna börja jobba.
 Vi skapar också en modboard för att få en känsla på hur den ska kunna se ut
+
+---
+
+### Problem vi ska lösa
+- 
