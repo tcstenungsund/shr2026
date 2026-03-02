@@ -67,7 +67,6 @@ Vi har valt ut färger som skall användas till sidan
 - Mörkgul #ffc107
 - Mörkgrön #194c00
 - Vit #ffffff
-- 
 
 ---
 
