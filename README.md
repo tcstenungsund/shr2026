@@ -1,2 +1,2 @@
-# shr2026
-Ett Boostrap Barrio subtheme för Drupal 11 till Stora Höga Ridklubb
+# Stora Höga Ridklubb
+Ny design inför 2026 buckle up.
