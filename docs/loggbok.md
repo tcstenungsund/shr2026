@@ -59,9 +59,9 @@ Nästa lektion startar vi med att börja bygga på själva sidan i **Drupal**.
 
 Idag så ska vi planera data migrerring för att veta hur sidan ska se ut vart content och allt ska vara.
 Ett problem är att sidan ännu inte är öppen så många kan inte än göra något, vi behöver också en sitemap som vi viss abehöver för att kunna börja jobba.
-Vi skapar också en modboard för att få en känsla på hur den ska kunna se ut
+Vi skapar också en modboard för att få en känsla på hur den ska kunna se ut. Issues kring planeringen av sitemappen har lagts till.
 
 ---
 
 ### Problem vi ska lösa
-- 
+---
