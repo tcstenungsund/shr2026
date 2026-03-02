@@ -61,6 +61,14 @@ Idag så ska vi planera data migrerring för att veta hur sidan ska se ut vart c
 Ett problem är att sidan ännu inte är öppen så många kan inte än göra något, vi behöver också en sitemap som vi viss abehöver för att kunna börja jobba.
 Vi skapar också en modboard för att få en känsla på hur den ska kunna se ut. Issues kring planeringen av sitemappen har lagts till.
 
+Vi har valt ut färger som skall användas till sidan
+- Mörkblå #310866
+- Gul #ffe300
+- Mörkgul #ffc107
+- Mörkgrön #194c00
+- Vit #ffffff
+- 
+
 ---
 
 ### Problem vi ska lösa
