@@ -109,4 +109,7 @@ Logotyp ska fortsättas utvecklas efter vi hade valt hur grund ideén skulle se 
 - Konfigurera pathauto
 - Strukturera content efter Sitemapen
 
+### Problem vi löst
+
+
 
