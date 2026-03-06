@@ -55,7 +55,7 @@ Nästa lektion startar vi med att börja bygga på själva sidan i **Drupal**.
 
 ---
 
-## Måndag 03 / 02
+## Måndag 02 / 03
 
 Idag så ska vi planera data migrerring för att veta hur sidan ska se ut vart content och allt ska vara.
 Ett problem är att sidan ännu inte är öppen så många kan inte än göra något, vi behöver också en sitemap som vi viss abehöver för att kunna börja jobba.
@@ -71,4 +71,42 @@ Vi har valt ut färger som skall användas till sidan
 ---
 
 ### Problem vi ska lösa
+
 ---
+
+## Fredag 06 / 03
+
+Vi ska fortsätta jobba med content types, vi ska också jobba mer gitt. 
+Sitemapen ska också forstsättas med idag för att vissa hur sidan ska se ut och var olika länkar ska gå till samt vad som ligger i dom.
+Taxonomier skapas idag men det behövs en sitemap för att kunna fortsätta med det.
+Logotyp ska fortsättas utvecklas efter vi hade valt hur grund ideén skulle se ut.
+
+---
+
+### Problem vi löser
+- Moduler
+- Ny Logotyp
+- Planera data migrering
+- Sitemap av orginalsidan
+- Sitemap av nya sidan
+- Definiera content types
+- Uppdatera README.md
+
+### Problem vi ska lösa
+- Fonter
+- Skapa ett Bootstrap-tema
+- Skapa ett pattern library
+- Skapa Wireframes
+- Definiera taxonemies
+- Planera användar Tester
+- Lägg in taxonemies
+- Se över "add content" för alla content types
+- Skapa en datamigrerings HOWTO
+- Skapa en template-fil för förstasidan
+- Skapa ett konto för datamigrering
+- Lägg till content types
+- Lägg till taxonomier
+- Konfigurera pathauto
+- Strukturera content efter Sitemapen
+
+
