@@ -109,7 +109,11 @@ Logotyp ska fortsättas utvecklas efter vi hade valt hur grund ideén skulle se 
 - Konfigurera pathauto
 - Strukturera content efter Sitemapen
 
-### Problem vi löst
+## Måndag 09 / 03
 
-
+Vi ska fixa fonter som vi har valt fram för att se hur det ser ut på hemsidan som till exempel brödtext eller rubrik.
+Vi ska börja med en sitemap för orginal sidan.
+Börja skapa wireframe för att tidigt få en ideé om hur sidan ska se ut.
+Loggan har vi börjat göra digitalt från en skiss vi har röstat fram.
+Fortsätta utveckla färgschema för att få mer färger av dom vi har valt. Som hur ljus eller stark färgen är.
 
