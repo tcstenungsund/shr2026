@@ -1,28 +1,29 @@
 
 ja (
+
 nyheter (article)
 
 hästar
 
-tänvling
+tävling
 
 event
 )
 
 
 kanske(
+
 produkter vi säljer 
 
 sponsor
-
-tänvling
 )
 
 
 tror ej(
+
 priser
 
 kalender / schema
-
 )
+
 
