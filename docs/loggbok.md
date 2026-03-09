@@ -129,6 +129,12 @@ Träning (R), Tävling (R),
 
 Hästar, Nyheter Teaser, Nyheter Full, Interna Event, Offentliga Event
 
+
+Sitemap av Orginal sidan
+<img width="1024" height="728" alt="image" src="https://github.com/user-attachments/assets/149931b2-2060-483f-bcef-632d9fd32987" />
+
+
+
 ### Problem vi löser
 - Moduler
 - Ny Logotyp
