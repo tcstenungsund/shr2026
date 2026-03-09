@@ -117,6 +117,18 @@ Börja skapa wireframe för att tidigt få en ideé om hur sidan ska se ut.
 Loggan har vi börjat göra digitalt från en skiss vi har röstat fram.
 Fortsätta utveckla färgschema för att få mer färger av dom vi har valt. Som hur ljus eller stark färgen är.
 
+Taxonomier
+Huvud-rubriker
+
+Förening (F), Ridskola (R), Försäljning/cafe (FC)
+Andra-rubriker
+
+Organistation (F), Trygghetsäkerhet (F),
+
+Träning (R), Tävling (R),
+
+Hästar, Nyheter Teaser, Nyheter Full, Interna Event, Offentliga Event
+
 ### Problem vi löser
 - Moduler
 - Ny Logotyp
