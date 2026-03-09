@@ -126,3 +126,17 @@ Fortsätta utveckla färgschema för att få mer färger av dom vi har valt. Som
 - Skapa Wireframes
 - Fonter
 - Definiera taxonomier
+
+### Problem vi ska lösa
+- Skapa ett Bootstrap-tema
+- Skapa ett pattern library
+- Planera användar Tester
+- Lägg in taxonemies
+- Se över "add content" för alla content types
+- Skapa en datamigrerings HOWTO
+- Skapa en template-fil för förstasidan
+- Skapa ett konto för datamigrering
+- Lägg till content types
+- Lägg till taxonomier
+- Konfigurera pathauto
+- Strukturera content efter Sitemapen
