@@ -117,3 +117,12 @@ Börja skapa wireframe för att tidigt få en ideé om hur sidan ska se ut.
 Loggan har vi börjat göra digitalt från en skiss vi har röstat fram.
 Fortsätta utveckla färgschema för att få mer färger av dom vi har valt. Som hur ljus eller stark färgen är.
 
+### Problem vi löser
+- Moduler
+- Ny Logotyp
+- Planera data migrering
+- Sitemap av orginalsidan
+- Sitemap av nya sidan
+- Skapa Wireframes
+- Fonter
+- Definiera taxonomier
