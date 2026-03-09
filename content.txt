@@ -5,9 +5,9 @@ nyheter (article)
 
 hästar
 
-tävling
+tävling/event
 
-event
+sponsor
 )
 
 
@@ -15,7 +15,7 @@ kanske(
 
 produkter vi säljer 
 
-sponsor
+
 )
 
 
@@ -25,5 +25,6 @@ priser
 
 kalender / schema
 )
+
 
 
