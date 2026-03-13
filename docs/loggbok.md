@@ -184,3 +184,6 @@ Sitemap av Orginal sidan
 - Strukturera content efter Sitemapen
 - Skapa mindre logomark
 - Skriv ut wireframe
+
+Nuvarande Wireframe
+<img width="1920" height="1080" alt="Wireframe home page" src="https://github.com/user-attachments/assets/0ee1501b-5080-4655-8ff2-c140fbfec32d" />
