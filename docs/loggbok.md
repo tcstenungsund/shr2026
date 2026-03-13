@@ -158,3 +158,5 @@ Sitemap av Orginal sidan
 - Lägg till taxonomier
 - Konfigurera pathauto
 - Strukturera content efter Sitemapen
+
+## Fredag 13 / 03
