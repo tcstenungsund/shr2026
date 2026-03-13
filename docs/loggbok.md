@@ -76,7 +76,7 @@ Vi har valt ut färger som skall användas till sidan
 
 ## Fredag 06 / 03
 
-Vi ska fortsätta jobba med content types, vi ska också jobba mer gitt. 
+Vi ska fortsätta jobba med content types, vi ska också jobba mer git. 
 Sitemapen ska också forstsättas med idag för att vissa hur sidan ska se ut och var olika länkar ska gå till samt vad som ligger i dom.
 Taxonomier skapas idag men det behövs en sitemap för att kunna fortsätta med det.
 Logotyp ska fortsättas utvecklas efter vi hade valt hur grund ideén skulle se ut.
