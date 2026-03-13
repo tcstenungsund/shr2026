@@ -160,3 +160,27 @@ Sitemap av Orginal sidan
 - Strukturera content efter Sitemapen
 
 ## Fredag 13 / 03
+
+### Problem vi löser
+- Moduler
+- Ny Logotyp
+- Planera data migrering
+- Sitemap av nya sidan
+- Skapa Wireframes
+- Fonter
+
+### Problem vi ska lösa
+- Skapa ett Bootstrap-tema
+- Skapa ett pattern library
+- Planera användar Tester
+- Lägg in taxonemies
+- Se över "add content" för alla content types
+- Skapa en datamigrerings HOWTO
+- Skapa en template-fil för förstasidan
+- Skapa ett konto för datamigrering
+- Lägg till content types
+- Lägg till taxonomier
+- Konfigurera pathauto
+- Strukturera content efter Sitemapen
+- Skapa mindre logomark
+- Skriv ut wireframe
