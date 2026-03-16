@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Bootstrap Barrio Subtheme.
+
+shr2026.settings:
+  type: bootstrap_barrio.settings
+  label: 'shr2026 settings'
