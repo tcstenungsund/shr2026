@@ -187,3 +187,28 @@ Sitemap av Orginal sidan
 
 Nuvarande Wireframe
 <img width="1920" height="1080" alt="Wireframe home page" src="https://github.com/user-attachments/assets/0ee1501b-5080-4655-8ff2-c140fbfec32d" />
+
+## Fredag 20 / 03
+
+Vi ska börja göra ett Bootstrap tema. Vi ska fortsätta med taxonomier och sen skapa en datamigrerings howto. Skapa ett pattern library. Vi ska börja klona ner dev servrar för att testa det vi har gjort hitils.
+
+### Problem vi löser
+- Moduler
+- Ny Logotyp
+- Skapa ett Bootstrap-tema
+- Planera data migrering
+- Sitemap av nya sidan
+- Skapa ett pattern library
+- Skapa en datamigrerings HOWTO
+
+### Problem vi ska lösa
+- Planera användar Tester
+- Lägg in taxonemies
+- Se över "add content" för alla content types
+- Skapa en template-fil för förstasidan
+- Skapa ett konto för datamigrering
+- Lägg till content types
+- Lägg till taxonomier
+- Konfigurera pathauto
+- Strukturera content efter Sitemapen
+- Skapa mindre logomark
