@@ -188,20 +188,22 @@ Sitemap av Orginal sidan
 Nuvarande Wireframe
 <img width="1920" height="1080" alt="Wireframe home page" src="https://github.com/user-attachments/assets/0ee1501b-5080-4655-8ff2-c140fbfec32d" />
 
-
 ## Fredag 20 / 03
+
+Vi ska börja göra ett Bootstrap tema. Vi ska fortsätta med taxonomier och sen skapa en datamigrerings howto. Skapa ett pattern library. Vi ska börja klona ner dev servrar för att testa det vi har gjort hitils.
 
 ### Problem vi löser
 - Moduler
 - Ny Logotyp
 - Skapa ett Bootstrap-tema
 - Planera data migrering
-- Skapa pattern library
-- Skapa ett datamigrerings HOWTO
+- Sitemap av nya sidan
+- Skapa ett pattern library
+- Skapa en datamigrerings HOWTO
 
 ### Problem vi ska lösa
-
 - Planera användar Tester
+- Lägg in taxonemies
 - Se över "add content" för alla content types
 - Skapa en template-fil för förstasidan
 - Skapa ett konto för datamigrering
@@ -211,6 +213,28 @@ Nuvarande Wireframe
 - Strukturera content efter Sitemapen
 - Skapa mindre logomark
 
-Nuvarande Sitemap
-<img width="1818" height="686" alt="Nysitemap" src="https://github.com/user-attachments/assets/baccd1ad-09cc-4e84-a5b6-15d0e1f67046" />
+## Måndag 30 / 03
 
+Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börja klona ner sakerna själva för att skapna egna test miljöer för att se själva vad det gör.
+
+### Problem vi löser
+- Moduler
+- Ny Logotyp
+- Planera datamigrering
+- Skapa ett pattern library
+- Planera användartester
+- Skapa en datamigrerings HOWTO
+
+### Problem vi ska lösa
+- Planera användar Tester
+- Se över "add content" för alla content types
+- Skapa en template-fil för förstasidan
+- Skapa ett konto för datamigrering
+- Lägg till content types
+- Lägg till taxonomier
+- Konfigurera pathauto
+- Strukturera content efter Sitemapen
+- Skapa mindre logomark
+- Testa ny struktur av Ridklubb sidan med hjälp av sitemap
+- Skriv simpla CSS regler för sidan
+- Skriv css för footer
