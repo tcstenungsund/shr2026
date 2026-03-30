@@ -212,3 +212,29 @@ Vi ska börja göra ett Bootstrap tema. Vi ska fortsätta med taxonomier och sen
 - Konfigurera pathauto
 - Strukturera content efter Sitemapen
 - Skapa mindre logomark
+
+## Måndag 30 / 03
+
+Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börja klona ner sakerna själva för att skapna egna test miljöer för att se själva vad det gör.
+
+### Problem vi löser
+- Moduler
+- Ny Logotyp
+- Planera datamigrering
+- Skapa ett pattern library
+- Planera användartester
+- Skapa en datamigrerings HOWTO
+
+### Problem vi ska lösa
+- Planera användar Tester
+- Se över "add content" för alla content types
+- Skapa en template-fil för förstasidan
+- Skapa ett konto för datamigrering
+- Lägg till content types
+- Lägg till taxonomier
+- Konfigurera pathauto
+- Strukturera content efter Sitemapen
+- Skapa mindre logomark
+- Testa ny struktur av Ridklubb sidan med hjälp av sitemap
+- Skriv simpla CSS regler för sidan
+- Skriv css för footer
