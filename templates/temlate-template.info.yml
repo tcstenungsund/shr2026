@@ -1,0 +1,16 @@
+# Replace x with the site name.
+
+name: x
+type: theme
+description: template for x 
+package: Custom
+core: 11.x
+libraries: 
+  -x/style
+regions:
+  navbar: Navbar
+  sidebar: Sidebar
+  header: Header
+  content: Content
+  slider: Slider
+  footer: Footer 
