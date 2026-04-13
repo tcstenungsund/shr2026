@@ -238,3 +238,28 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Testa ny struktur av Ridklubb sidan med hjälp av sitemap
 - Skriv simpla CSS regler för sidan
 - Skriv css för footer
+
+## Måndag 13 / 04
+
+
+### Problem vi löser
+- Moduler
+- Ny Logotyp
+- Planera datamigrering
+- Skapa ett pattern library
+- Skapa en datamigrerings HOWTO
+- Skapa ett konto för datamigrering
+- Skriv simpla css regler för sidan
+
+
+### Problem vi ska lösa
+- Se över "add content" för alla content types
+- Skapa en template-fil för förstasidan
+- Lägg till content types
+- Lägg till taxonomier
+- Konfigurera pathauto
+- Strukturera content efter Sitemapen
+- Skapa mindre logomark
+- Testa ny struktur av Ridklubb sidan med hjälp av sitemap
+- Skriv css för footer
+- Skapa template filer
