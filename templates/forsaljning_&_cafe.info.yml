@@ -1,0 +1,21 @@
+# Replace x with the site name.
+
+name: Forsaljning & cafe
+type: theme
+description: template for forsaljning_&_cafe 
+package: Custom
+core: 11.x
+libraries: 
+  -forsaljning_&_cafe/style
+regions:
+  navbar: Navbar
+  header: Header
+  sidebar-1: Sidebar-1
+  content-1: Content-1
+  content-2: Content-2
+  sidebar-2: Sidebar-2
+  content-3: Content-3
+  sidebar-3: Sidebar-3
+  content-4: Content-4
+  slider: Slider
+  footer: Footer 

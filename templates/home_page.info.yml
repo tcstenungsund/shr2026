@@ -1,0 +1,17 @@
+# Replace x with the site name.
+
+name: Home Page
+type: theme
+description: template för home page
+package: Custom
+core: 11.x
+libraries: 
+  -home_page/style
+regions:
+  navbar: Navbar
+  sidebar-content-left: Sidebar-content-left
+  sidebar-content-right: Sidebar-content-right
+  header: Header
+  content: Content
+  slider: Slider
+  footer: Footer 
