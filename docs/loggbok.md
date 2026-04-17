@@ -256,10 +256,45 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Se över "add content" för alla content types
 - Skapa en template-fil för förstasidan
 - Lägg till content types
-- Lägg till taxonomier
 - Konfigurera pathauto
 - Strukturera content efter Sitemapen
 - Skapa mindre logomark
 - Testa ny struktur av Ridklubb sidan med hjälp av sitemap
 - Skriv css för footer
 - Skapa template filer
+
+## Fredag 17 / 04
+
+
+### Problem vi löser
+- Moduler
+- Ny Logotyp
+- Planera datamigrering
+- Skapa ett pattern library
+- Lägg till taxonomier
+- Skriv simpla css regler för sidan
+- Skapa template filer
+
+
+### Problem vi ska lösa
+- Se över "add content" för alla content types
+- Skapa en template-fil för förstasidan
+- Lägg till content types
+- Lägg till taxonomier
+- Konfigurera pathauto
+- Strukturera content efter Sitemapen
+- Skapa mindre logomark
+- Testa ny struktur av Ridklubb sidan med hjälp av sitemap
+- Skriv css för footer
+- Migrera Nyheter och artiklar
+- Migrerar träning
+- Migrerar faciliteter
+- Migrerar sponsring
+- Migrera trygghet och säkerhet
+- Migrera barnkalas
+- Migrera tävling
+- Migrera planering
+- Migrera försäljning
+- Migrera nyheter
+- Migrera hästbilder
+- Fixa alla länkar
