@@ -298,3 +298,38 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Migrera nyheter
 - Migrera hästbilder
 - Fixa alla länkar
+
+- ## Fredag 24 / 04
+
+
+### Problem vi löser
+- Moduler
+- Ny Logotyp
+- Planera datamigrering
+- Skapa ett pattern library
+- Se över "add content" för alla content types
+- Skriv simpla css regler för sidan
+- Skapa template filer
+- Skapa mindre logomark
+- Skapa en template-fil för förstasidan
+
+
+### Problem vi ska lösa
+- Lägg till content types
+- Lägg till taxonomier
+- Konfigurera pathauto
+- Strukturera content efter Sitemapen
+- Testa ny struktur av Ridklubb sidan med hjälp av sitemap
+- Skriv css för footer
+- Migrera Nyheter och artiklar
+- Migrerar träning
+- Migrerar faciliteter
+- Migrerar sponsring
+- Migrera trygghet och säkerhet
+- Migrera barnkalas
+- Migrera tävling
+- Migrera planering
+- Migrera försäljning
+- Migrera nyheter
+- Migrera hästbilder
+- Fixa alla länkar
