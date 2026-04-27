@@ -299,7 +299,7 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Migrera hästbilder
 - Fixa alla länkar
 
-- ## Fredag 24 / 04
+## Fredag 24 / 04
 
 
 ### Problem vi löser
@@ -334,7 +334,7 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Migrera hästbilder
 - Fixa alla länkar
 
-- ## Måndag 27 / 04
+## Måndag 27 / 04
 
 
 ### Problem vi löser
