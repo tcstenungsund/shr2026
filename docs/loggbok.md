@@ -287,9 +287,9 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Testa ny struktur av Ridklubb sidan med hjälp av sitemap
 - Skriv css för footer
 - Migrera Nyheter och artiklar
-- Migrerar träning
-- Migrerar faciliteter
-- Migrerar sponsring
+- Migrera träning
+- Migrera faciliteter
+- Migrera sponsring
 - Migrera trygghet och säkerhet
 - Migrera barnkalas
 - Migrera tävling
@@ -322,9 +322,9 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Testa ny struktur av Ridklubb sidan med hjälp av sitemap
 - Skriv css för footer
 - Migrera Nyheter och artiklar
-- Migrerar träning
-- Migrerar faciliteter
-- Migrerar sponsring
+- Migrera träning
+- Migrera faciliteter
+- Migrera sponsring
 - Migrera trygghet och säkerhet
 - Migrera barnkalas
 - Migrera tävling
@@ -356,9 +356,9 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Testa ny struktur av Ridklubb sidan med hjälp av sitemap
 - Skriv css för footer
 - Migrera Nyheter och artiklar
-- Migrerar träning
-- Migrerar faciliteter
-- Migrerar sponsring
+- Migrera träning
+- Migrera faciliteter
+- Migrera sponsring
 - Migrera trygghet och säkerhet
 - Migrera barnkalas
 - Migrera tävling
@@ -367,3 +367,36 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Migrera nyheter
 - Fixa alla länkar
 - Häst länkar
+
+
+## Måndag 04 / 05
+
+
+### Problem vi löser
+- Moduler
+- Ny Logotyp
+- Planera datamigrering
+- Skapa ett pattern library
+- Skriv simpla css regler för sidan
+- Skriv css regler för footer
+- Skapa en template-fil för förstasidan
+
+
+### Problem vi ska lösa
+- Konfigurera pathauto
+- Strukturera content efter Sitemapen
+- Testa ny struktur av Ridklubb sidan med hjälp av sitemap
+- Migrera Nyheter och artiklar
+- Skapa template filer
+- Migrera nyheter
+- Migrera träning
+- Migrera faciliteter
+- Migrera sponsring
+- Migrera trygghet och säkerhet
+- Migrera barnkalas
+- Migrera tävling
+- Migrera planering
+- Migrera försäljning
+- Fixa alla länkar
+- Fixa dropdown meny
+- Få dropdown i dropdown att fungera
