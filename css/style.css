@@ -1,7 +1,9 @@
-/**
- * @file
- * Subtheme specific CSS.
- */
+* { 
+  background: hotpink;
+}
+
+
+
 /* Footer */
 
 .site-footer__top .region{
