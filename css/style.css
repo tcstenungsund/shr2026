@@ -2,3 +2,27 @@
  * @file
  * Subtheme specific CSS.
  */
+/* Footer */
+
+.site-footer__top .region{
+    min-width:28.5em;
+    padding-right:10em;
+}
+.site-footer .block{
+    border:0;
+}
+#block-shr2026-postadress{
+text-align: right;
+max-width: 5em;
+}
+.site-footer__top .region{
+    min-width:28.5em;
+    padding-right:10em;
+}
+.site-footer .block{
+    border:0;
+}
+#block-shr2026-postadress{
+text-align: right;
+max-width: 5em;
+}
