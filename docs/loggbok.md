@@ -400,3 +400,37 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Fixa alla länkar
 - Fixa dropdown meny
 - Få dropdown i dropdown att fungera
+- 
+
+## Måndag 11 / 05
+
+
+### Problem vi löser
+- Moduler
+- Ny Logotyp
+- Planera datamigrering
+- Migrera hästbilder
+- Skapa ett pattern library
+- Konfigurera pathauto
+- Skriv simpla css regler för sidan
+- Skriv css regler för footer
+- Skapa en template-fil för förstasidan
+- Migrera nyheter
+
+
+### Problem vi ska lösa
+- Strukturera content efter Sitemapen
+- Testa ny struktur av Ridklubb sidan med hjälp av sitemap
+- Migrera Nyheter och artiklar
+- Skapa template filer
+- Migrera träning
+- Migrera faciliteter
+- Migrera sponsring
+- Migrera trygghet och säkerhet
+- Migrera barnkalas
+- Migrera tävling
+- Migrera planering
+- Migrera försäljning
+- Fixa alla länkar
+- Fixa dropdown meny
+- Få dropdown i dropdown att fungera
