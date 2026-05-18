@@ -1,24 +1,316 @@
-/* Footer */
+/* Front page */
 
-.site-footer__top .region{
-    min-width:28.5em;
-    padding-right:10em;
+.path-frontpage {
+  --frontpage-width: 46.5rem;
+  --frontpage-gap: 0.5rem;
+  --frontpage-side-column: 10.25rem;
+  background: #f5f5f5;
 }
-.site-footer .block{
-    border:0;
+
+.path-frontpage #header {
+  display: none;
 }
-#block-shr2026-postadress{
-text-align: right;
-max-width: 5em;
+
+.path-frontpage #main-wrapper {
+  background: transparent;
 }
-.site-footer__top .region{
-    min-width:28.5em;
-    padding-right:10em;
+
+.path-frontpage .layout-main-wrapper {
+  clear: both;
 }
-.site-footer .block{
-    border:0;
+
+.path-frontpage .background-image-region,
+.path-frontpage .navbar-region,
+.path-frontpage .frontpage-layout {
+  width: min(var(--frontpage-width), calc(100% - 2rem));
+  margin-right: auto;
+  margin-left: auto;
 }
-#block-shr2026-postadress{
-text-align: right;
-max-width: 5em;
+
+.path-frontpage .background-image-region {
+  position: relative;
+  min-height: 13.5rem;
+  overflow: hidden;
+  background: #d9d1a0;
+}
+
+.path-frontpage .background-image-media {
+  position: absolute;
+  inset: 0;
+}
+
+.path-frontpage .background-image-region .region,
+.path-frontpage .background-image-region .block,
+.path-frontpage .background-image-region .content,
+.path-frontpage .background-image-region .field,
+.path-frontpage .background-image-region .field__item {
+  height: 100%;
+  margin: 0;
+}
+
+.path-frontpage .background-image-region .region {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.path-frontpage .background-image-region .region > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.path-frontpage .background-image-media .block > h2,
+.path-frontpage .small-logo-region .block > h2,
+.path-frontpage .logo-region .block > h2 {
+  display: none;
+}
+
+.path-frontpage .background-image-media img {
+  display: block;
+  width: 100%;
+  height: 13.5rem;
+  object-fit: cover;
+}
+
+.path-frontpage .small-logo-region {
+  position: absolute;
+  top: 0.45rem;
+  left: 0.45rem;
+  z-index: 2;
+  width: 3rem;
+  height: 3rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.path-frontpage .small-logo-region img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.path-frontpage .logo-region {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: min(10.5rem, 45vw);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.path-frontpage .logo-region .region,
+.path-frontpage .logo-region .block,
+.path-frontpage .logo-region .content,
+.path-frontpage .logo-region .field,
+.path-frontpage .logo-region .field__item {
+  margin: 0;
+}
+
+.path-frontpage .logo-region img {
+  display: block;
+  width: 100%;
+  max-height: 10.5rem;
+  object-fit: contain;
+  filter: drop-shadow(0 0.35rem 0.85rem rgba(0, 0, 0, 0.3));
+}
+
+.path-frontpage .navbar-region {
+  background: #ffffff;
+  border-top: 0.25rem solid #111111;
+  border-bottom: 0.25rem solid #111111;
+}
+
+.path-frontpage .frontpage-navbar-inner {
+  min-height: 2rem;
+  padding: 0.2rem 0;
+}
+
+.path-frontpage .frontpage-navbar-inner .region {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.path-frontpage .frontpage-navbar-inner .region > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.path-frontpage .frontpage-navbar-inner .block {
+  flex: 1 1 8rem;
+  margin: 0;
+  border: 0;
+}
+
+.path-frontpage .frontpage-navbar-inner .block > h2 {
+  display: none;
+}
+
+.path-frontpage .frontpage-navbar-inner .menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.path-frontpage .frontpage-navbar-inner .menu a {
+  display: block;
+  padding: 0.3rem 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111111;
+  background: rgba(134, 56, 167, 0.22);
+}
+
+.path-frontpage .frontpage-layout {
+  display: grid;
+  grid-template-columns: var(--frontpage-side-column) minmax(0, 1fr) var(--frontpage-side-column);
+  gap: var(--frontpage-gap);
+  align-items: stretch;
+  padding: 1.5rem 0 0.75rem;
+  background: #ffffff;
+}
+
+.path-frontpage .left-gallery,
+.path-frontpage .main-content,
+.path-frontpage .right-gallery {
+  min-width: 0;
+}
+
+.path-frontpage .left-gallery {
+  grid-column: 1;
+}
+
+.path-frontpage .main-content {
+  grid-column: 2;
+}
+
+.path-frontpage .right-gallery {
+  grid-column: 3;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: var(--frontpage-gap);
+}
+
+.path-frontpage .right-events {
+  grid-row: 1;
+}
+
+.path-frontpage .right-gallery-content {
+  grid-row: 2;
+}
+
+.path-frontpage .left-gallery .region,
+.path-frontpage .right-gallery .region {
+  display: grid;
+  gap: var(--frontpage-gap);
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.path-frontpage .frontpage-layout .region > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.path-frontpage .frontpage-layout .block {
+  margin: 0;
+  border: 0;
+}
+
+.path-frontpage .frontpage-layout .block > h2 {
+  margin: 0 0 0.6rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.path-frontpage .left-gallery img,
+.path-frontpage .right-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.path-frontpage .main-content {
+  min-height: 38rem;
+  padding: 0.75rem;
+}
+
+.path-frontpage .main-content .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.path-frontpage .main-content .row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.path-frontpage .main-content .views-row {
+  margin-bottom: 1.5rem;
+}
+
+.path-frontpage .main-content article {
+  max-width: 100%;
+}
+
+.path-frontpage .right-events,
+.path-frontpage .right-gallery-content,
+.path-frontpage .left-gallery {
+  padding: 0.75rem;
+}
+
+.path-frontpage .site-footer {
+  clear: both;
+  margin-top: 3rem;
+}
+
+.path-frontpage .site-footer__top .region {
+  min-width: 28.5em;
+  padding-right: 10em;
+}
+
+.path-frontpage .site-footer .block {
+  border: 0;
+}
+
+.path-frontpage #block-shr2026-postadress {
+  text-align: right;
+}
+
+@media (max-width: 48rem) {
+  .path-frontpage .frontpage-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .path-frontpage .left-gallery,
+  .path-frontpage .main-content,
+  .path-frontpage .right-gallery {
+    grid-column: 1;
+  }
+
+  .path-frontpage .right-gallery {
+    grid-template-rows: none;
+  }
+
+  .path-frontpage .main-content {
+    min-height: 0;
+  }
+
+  .path-frontpage .site-footer__top .region {
+    min-width: 0;
+    padding-right: 0;
+  }
 }

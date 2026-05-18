@@ -1,15 +1,28 @@
 {% extends "page.html.twig" %}
 
+{% block head %}
+{% endblock %}
+
 {% block content %}
 
 {# =============================== #}
 {#   BACKGROUND IMAGE + LOGO       #}
 {# =============================== #}
 
-{% if page.background_image %}
+{% if page.background_image or page.logo_region or page.small_logo %}
   <div class="background-image-region">
 
-    {{ page.background_image }}
+    {% if page.background_image %}
+      <div class="background-image-media">
+        {{ page.background_image }}
+      </div>
+    {% endif %}
+
+    {% if page.small_logo %}
+      <div class="small-logo-region">
+        {{ page.small_logo }}
+      </div>
+    {% endif %}
 
     {% if page.logo_region %}
       <div class="logo-region">
@@ -20,18 +33,16 @@
   </div>
 {% endif %}
 
-{# =============================== #}
-{#             NAVBAR              #}
-{# =============================== #}
-
 {% if page.navbar_region %}
   <div class="navbar-region">
-    {{ page.navbar_region }}
+    <div class="frontpage-navbar-inner">
+      {{ page.navbar_region }}
+    </div>
   </div>
 {% endif %}
 
 {# =============================== #}
-{#   MAIN LAYOUT: LEFT - MID - RIGHT
+{#   MAIN LAYOUT: LEFT - MID - RIGHT #}
 {# =============================== #}
 
 <div class="frontpage-layout">
