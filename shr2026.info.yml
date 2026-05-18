@@ -21,6 +21,13 @@ regions:
   featured_top: 'Featured top'
   breadcrumb: Breadcrumb
   content: Content
+  background_image: 'Background image'
+  small_logo: 'Small logo'
+  logo_region: Logo
+  navbar_region: Navbar
+  left_gallery: 'Left gallery'
+  right_events: 'Right events'
+  right_gallery: 'Right gallery'
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
   featured_bottom_first: 'Featured bottom first'
