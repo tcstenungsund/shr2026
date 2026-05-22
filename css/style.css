@@ -1,84 +1,12 @@
-
-/**
- * @file
- * Subtheme specific CSS.
- */
-
-
-  @import url('https://fonts.cdnfonts.com/css/roboto');
-  
-  
-  @import url('https://fonts.cdnfonts.com/css/playfair-display-sc');
-
-
-
-
- body .page-wrapper{
-    background-color:  #74dff1;
-    margin-bottom: 0;
-    padding-bottom: 0;
-
- }
-#main-wrapper{
-    background-color: #74dff1 ;
-
-    font-family: 'Roboto', sans-serif;
-
-
-}
-
-h1, h2, h3, h4{
-font-family: 'Playfair Display SC', sans-serif;
-}
-.site-footer{
-    margin-bottom: 0;
-    padding-bottom: 0;
-    min-height: 20em;
-    background-color: rgb(50, 46, 46);
-
-
-}
-#navbar-main{
-    background-color: #10acc9ff;
-}
-#header #navbar-main {
-    
-    padding-right: 5em;
-  
-    
-}
-
-#main
-{
-  min-width: 90%;
-  
-  
-   
-}
-#sidebar_first{
-max-width: 20em;
-margin-top: 2em;
-
-}
-
-#sidebar_second{
-max-width: 20em;
-margin-top: 2em;
-}
-
-#sidebar_first .block-content-basic{
-    background-color:  rgb(185, 240, 165);
-}
-#sidebar_second .block-content-basic{
-    background-color:  rgb(185, 240, 165);
-}
-
 /* Front page */
 
 .path-frontpage {
   --frontpage-width: 46.5rem;
   --frontpage-gap: 0.5rem;
-  --frontpage-side-column: 10.25rem;
+  --frontpage-outer-space: 15em;
+  --frontpage-hero-height: 17rem;
+  --frontpage-gallery-column: minmax(8rem, 1fr);
+  --frontpage-content-column: minmax(24rem, 3fr);
   background: #f5f5f5;
 }
 
@@ -97,14 +25,17 @@ margin-top: 2em;
 .path-frontpage .background-image-region,
 .path-frontpage .navbar-region,
 .path-frontpage .frontpage-layout {
-  width: min(var(--frontpage-width), calc(100% - 2rem));
+  width: min(
+    calc(100% - 2rem),
+    max(var(--frontpage-width), calc(100% - (var(--frontpage-outer-space) * 2)))
+  );
   margin-right: auto;
   margin-left: auto;
 }
 
 .path-frontpage .background-image-region {
   position: relative;
-  min-height: 13.5rem;
+  min-height: var(--frontpage-hero-height);
   overflow: hidden;
   background: #d9d1a0;
 }
@@ -142,7 +73,7 @@ margin-top: 2em;
 .path-frontpage .background-image-media img {
   display: block;
   width: 100%;
-  height: 13.5rem;
+  height: var(--frontpage-hero-height);
   object-fit: cover;
 }
 
@@ -191,8 +122,7 @@ margin-top: 2em;
 
 .path-frontpage .navbar-region {
   background: #ffffff;
-  border-top: 0.25rem solid #111111;
-  border-bottom: 0.25rem solid #111111;
+  border: 0;
 }
 
 .path-frontpage .frontpage-navbar-inner {
@@ -203,11 +133,12 @@ margin-top: 2em;
 .path-frontpage .frontpage-navbar-inner .region {
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
   gap: 0.5rem;
   margin-right: 0;
   margin-left: 0;
+  width: 100%;
 }
 
 .path-frontpage .frontpage-navbar-inner .region > * {
@@ -216,13 +147,19 @@ margin-top: 2em;
 }
 
 .path-frontpage .frontpage-navbar-inner .block {
-  flex: 1 1 8rem;
+  flex: 1 1 0;
   margin: 0;
   border: 0;
+  text-align: center;
 }
 
 .path-frontpage .frontpage-navbar-inner .block > h2 {
   display: none;
+}
+
+.path-frontpage .frontpage-navbar-inner .content,
+.path-frontpage .frontpage-navbar-inner p {
+  margin: 0;
 }
 
 .path-frontpage .frontpage-navbar-inner .menu {
@@ -250,7 +187,10 @@ margin-top: 2em;
 
 .path-frontpage .frontpage-layout {
   display: grid;
-  grid-template-columns: var(--frontpage-side-column) minmax(0, 1fr) var(--frontpage-side-column);
+  grid-template-columns:
+    var(--frontpage-gallery-column)
+    var(--frontpage-content-column)
+    var(--frontpage-gallery-column);
   gap: var(--frontpage-gap);
   align-items: stretch;
   padding: 1.5rem 0 0.75rem;
@@ -341,10 +281,16 @@ margin-top: 2em;
   max-width: 100%;
 }
 
-.path-frontpage .right-events,
-.path-frontpage .right-gallery-content,
 .path-frontpage .left-gallery {
+  padding: 0;
+}
+
+.path-frontpage .right-events {
   padding: 0.75rem;
+}
+
+.path-frontpage .right-gallery-content {
+  padding: 0;
 }
 
 .path-frontpage .site-footer {
@@ -388,4 +334,4 @@ margin-top: 2em;
     min-width: 0;
     padding-right: 0;
   }
-
+}
