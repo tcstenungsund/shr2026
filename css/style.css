@@ -1,3 +1,78 @@
+
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+
+  @import url('https://fonts.cdnfonts.com/css/roboto');
+  
+  
+  @import url('https://fonts.cdnfonts.com/css/playfair-display-sc');
+
+
+
+
+ body .page-wrapper{
+    background-color:  #74dff1;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+ }
+#main-wrapper{
+    background-color: #74dff1 ;
+
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+h1, h2, h3, h4{
+font-family: 'Playfair Display SC', sans-serif;
+}
+.site-footer{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    min-height: 20em;
+    background-color: rgb(50, 46, 46);
+
+
+}
+#navbar-main{
+    background-color: #10acc9ff;
+}
+#header #navbar-main {
+    
+    padding-right: 5em;
+  
+    
+}
+
+#main
+{
+  min-width: 90%;
+  
+  
+   
+}
+#sidebar_first{
+max-width: 20em;
+margin-top: 2em;
+
+}
+
+#sidebar_second{
+max-width: 20em;
+margin-top: 2em;
+}
+
+#sidebar_first .block-content-basic{
+    background-color:  rgb(185, 240, 165);
+}
+#sidebar_second .block-content-basic{
+    background-color:  rgb(185, 240, 165);
+}
+
 /* Front page */
 
 .path-frontpage {
@@ -313,4 +388,4 @@
     min-width: 0;
     padding-right: 0;
   }
-}
+
