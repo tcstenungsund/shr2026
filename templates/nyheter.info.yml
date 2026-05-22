@@ -1,0 +1,15 @@
+# Replace nyheter with the site name.
+
+name: Nyheter
+type: theme
+description: template for nyheter 
+package: Custom
+core: 11.x
+libraries: 
+  -nyheter/style
+regions:
+  navbar: Navbar
+  header: Header
+  content: Content
+  slider: Slider
+  footer: Footer 
