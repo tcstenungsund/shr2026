@@ -22,7 +22,7 @@
 ### Data
 - Carl Sås (Carl Åhs)
 - Kleenis (Elliot Kleén)
-- Zacharias Pettersson Ivarsson
+- Zacharias Ivarsson Petersson
 
 ### Versionshantering
 - Jakob (Erik Jackobsson)
