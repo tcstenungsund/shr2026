@@ -25,12 +25,15 @@
 .path-frontpage .background-image-region,
 .path-frontpage .navbar-region,
 .path-frontpage .frontpage-layout {
+  min-width: 0;
   width: min(
     calc(100% - 2rem),
     max(var(--frontpage-width), calc(100% - (var(--frontpage-outer-space) * 2)))
   );
   margin-right: auto;
   margin-left: auto;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .path-frontpage .background-image-region {
@@ -148,6 +151,7 @@
 
 .path-frontpage .frontpage-navbar-inner .block {
   flex: 1 1 0;
+  min-width: 0;
   margin: 0;
   border: 0;
   text-align: center;
@@ -244,6 +248,50 @@
   border: 0;
 }
 
+.path-frontpage .navbar-region .region,
+.path-frontpage .navbar-region .block,
+.path-frontpage .navbar-region .content,
+.path-frontpage .navbar-region .field,
+.path-frontpage .navbar-region .field__item,
+.path-frontpage .frontpage-layout .region,
+.path-frontpage .frontpage-layout .block,
+.path-frontpage .frontpage-layout .content,
+.path-frontpage .frontpage-layout .field,
+.path-frontpage .frontpage-layout .field__item,
+.path-frontpage .frontpage-layout article {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.path-frontpage .navbar-region p,
+.path-frontpage .navbar-region li,
+.path-frontpage .navbar-region a,
+.path-frontpage .navbar-region h1,
+.path-frontpage .navbar-region h2,
+.path-frontpage .navbar-region h3,
+.path-frontpage .navbar-region h4,
+.path-frontpage .navbar-region h5,
+.path-frontpage .navbar-region h6,
+.path-frontpage .frontpage-layout p,
+.path-frontpage .frontpage-layout li,
+.path-frontpage .frontpage-layout a,
+.path-frontpage .frontpage-layout h1,
+.path-frontpage .frontpage-layout h2,
+.path-frontpage .frontpage-layout h3,
+.path-frontpage .frontpage-layout h4,
+.path-frontpage .frontpage-layout h5,
+.path-frontpage .frontpage-layout h6 {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.path-frontpage .frontpage-layout pre,
+.path-frontpage .frontpage-layout table {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 .path-frontpage .frontpage-layout .block > h2 {
   margin: 0 0 0.6rem;
   text-align: center;
@@ -260,7 +308,10 @@
 
 .path-frontpage .main-content {
   min-height: 38rem;
+  min-width: 0;
   padding: 0.75rem;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .path-frontpage .main-content .row {
