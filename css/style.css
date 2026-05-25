@@ -710,3 +710,7 @@
     grid-template-columns: 1fr;
   }
 }
+
+.node_meta {
+  display: none;
+}
