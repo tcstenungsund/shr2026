@@ -1,0 +1,76 @@
+{% extends "page.html.twig" %}
+
+{% block head %}
+{% endblock %}
+
+{% block content %}
+  <div class="interior-page interior-page--cafe">
+    <div class="background-image-region section-hero">
+      {% if page.cafe_background_image %}
+        <div class="background-image-media">
+          {{ page.cafe_background_image }}
+        </div>
+      {% endif %}
+
+      {% if page.small_logo %}
+        <div class="small-logo-region">
+          {{ page.small_logo }}
+        </div>
+      {% endif %}
+
+      <h1 class="section-hero-title">Försäljning &amp; Café</h1>
+    </div>
+
+    {% if page.navbar_region %}
+      <div class="navbar-region">
+        <div class="frontpage-navbar-inner">
+          {{ page.navbar_region }}
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="interior-layout interior-layout--cafe">
+      <a href="#main-content" id="main-content" tabindex="-1"></a>
+
+      {% if page.cafe_sidebar_1 or page.content or page.cafe_content_1 %}
+        <div class="interior-row interior-row--media-left">
+          <aside class="interior-region interior-region--side">
+            {{ page.cafe_sidebar_1 }}
+          </aside>
+          <main class="interior-region interior-region--main">
+            {{ page.content }}
+            {{ page.cafe_content_1 }}
+          </main>
+        </div>
+      {% endif %}
+
+      {% if page.cafe_content_2 or page.cafe_sidebar_2 %}
+        <div class="interior-row interior-row--media-right">
+          <section class="interior-region interior-region--main">
+            {{ page.cafe_content_2 }}
+          </section>
+          <aside class="interior-region interior-region--side">
+            {{ page.cafe_sidebar_2 }}
+          </aside>
+        </div>
+      {% endif %}
+
+      {% if page.cafe_sidebar_3 or page.cafe_content_3 %}
+        <div class="interior-row interior-row--media-left">
+          <aside class="interior-region interior-region--side">
+            {{ page.cafe_sidebar_3 }}
+          </aside>
+          <section class="interior-region interior-region--main">
+            {{ page.cafe_content_3 }}
+          </section>
+        </div>
+      {% endif %}
+
+      {% if page.cafe_content_4 %}
+        <section class="interior-region interior-region--full">
+          {{ page.cafe_content_4 }}
+        </section>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}
