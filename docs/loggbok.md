@@ -461,6 +461,9 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Fixa dropdown meny
 - Få dropdown i dropdown att fungera
 
+### Övriga kommentarer
+- Vi jobbade mot att skapa en stilren och funktionell footer för sidan.
+
 ## Fredag 22 / 05
 
 
@@ -482,6 +485,10 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Fixa alla länkar
 - Fixa dropdown meny
 - Migrera nyhet tabell
+
+### Övriga kommentarer
+- Vi arbetade med sidans CSS för att kunna förbättra utseendet och navigationen runt om i sidan.
+- Vi arbetade även med att skapa template fil som strukturerar sidan.
 
 ## Måndag 25 / 05
 
