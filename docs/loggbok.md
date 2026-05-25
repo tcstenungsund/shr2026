@@ -503,3 +503,6 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Snygga till CSS på förstasidan
 - Layout på förstasidan
 - Fixa alternativ meny
+
+- Vi arbetar med att bygga upp en stilren och välfungerande dropdown menu. 
+- Förutom detta så är det även stort fokus på att föra över content data.
