@@ -482,3 +482,24 @@ Vi ska fortsätta på HOWTO och vi fortsätta med template sakerna. Vi ska börj
 - Fixa alla länkar
 - Fixa dropdown meny
 - Migrera nyhet tabell
+
+## Måndag 25 / 05
+
+
+### Problem vi löser
+- Ny Logotyp
+- Planera datamigrering
+- Fixa nyhetsflödet
+- Footern ska se likadan ut på alla sidor
+- Flytta och ladda in bootstrap theme
+- Skapa template fil samt css till förenings sidan
+- Skapa ett pattern library
+
+
+### Problem vi ska lösa
+- Fixa dropdown meny
+- Sidebars på förstasidan
+- Bilder i förstasidans sidebars
+- Snygga till CSS på förstasidan
+- Layout på förstasidan
+- Fixa alternativ meny
