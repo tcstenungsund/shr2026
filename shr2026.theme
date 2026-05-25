@@ -32,3 +32,55 @@ function shr2026_form_system_theme_settings_alter(&$form, FormStateInterface $fo
     'bg-transparent' => t('Transparent'),
   ];
 }
+
+/**
+ * Normalizes page aliases and node titles to simple template keys.
+ */
+function _shr2026_page_key($value) {
+  $value = trim((string) $value, '/ ');
+  $value = function_exists('mb_strtolower') ? mb_strtolower($value) : strtolower($value);
+  $value = strtr($value, [
+    'å' => 'a',
+    'ä' => 'a',
+    'ö' => 'o',
+    'é' => 'e',
+  ]);
+  $value = preg_replace('/[^a-z0-9]+/', '_', $value);
+  return trim($value, '_');
+}
+
+/**
+ * Implements hook_theme_suggestions_page_alter().
+ */
+function shr2026_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  $template_map = [
+    'nyheter' => 'page__nyheter',
+    'forening' => 'page__forening',
+    'foreningen' => 'page__forening',
+    'ridskola' => 'page__ridskola',
+    'ridskolan' => 'page__ridskola',
+    'forsaljning_cafe' => 'page__forsaljning_cafe',
+    'forsaljning_och_cafe' => 'page__forsaljning_cafe',
+    'forsaljning_cafeteria' => 'page__forsaljning_cafe',
+  ];
+
+  $path = \Drupal::service('path.current')->getPath();
+  $alias = \Drupal::service('path_alias.manager')->getAliasByPath($path);
+  $alias_key = _shr2026_page_key($alias);
+  $alias_last_key = _shr2026_page_key(basename($alias));
+
+  foreach ([$alias_key, $alias_last_key] as $key) {
+    if (isset($template_map[$key])) {
+      $suggestions[] = $template_map[$key];
+      return;
+    }
+  }
+
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if (is_object($node) && method_exists($node, 'label')) {
+    $title_key = _shr2026_page_key($node->label());
+    if (isset($template_map[$title_key])) {
+      $suggestions[] = $template_map[$title_key];
+    }
+  }
+}

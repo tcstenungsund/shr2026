@@ -4,7 +4,6 @@ global-styling:
     js/global.js: {}
   css:
     component:
-      css/shr2026bootstrap.css: {}
       css/style.css: {}
       css/colors.css: {}
 bootstrap:
