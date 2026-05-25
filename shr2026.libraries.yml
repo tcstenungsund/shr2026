@@ -6,6 +6,7 @@ global-styling:
     component:
       css/style.css: {}
       css/colors.css: {}
+      css/shr2026bootstrap.css: {}
 bootstrap:
   js:
     /libraries/popperjs/dist/umd/popper.min.js: { weight: -19 }
