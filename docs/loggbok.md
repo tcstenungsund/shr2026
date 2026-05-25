@@ -185,7 +185,9 @@ Sitemap av Orginal sidan
 - Skapa mindre logomark
 - Skriv ut wireframe
 
-Nuvarande Wireframe
+### Övriga kommentarer
+- Vi fokuserar lägger mycket fokus på att arbeta fram vår Wireframe.
+- Nuvarande Wireframe
 <img width="1920" height="1080" alt="Wireframe home page" src="https://github.com/user-attachments/assets/0ee1501b-5080-4655-8ff2-c140fbfec32d" />
 
 ## Fredag 20 / 03
