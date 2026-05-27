@@ -714,3 +714,75 @@
 .node_meta {
   display: none;
 }
+.path-frontpage #main-wrapper{
+  background-color: rgb(189, 255, 255);
+}
+.main-content{
+  background-color: rgb(189, 255, 255);
+}
+.left-gallery, .right-gallery{
+background-color: #9f9fff38;
+border-radius: 2em;
+margin-left: 0.2em;
+margin-right: 0.2em;
+
+}
+.navbar-region{
+  background-color: rgb(189, 255, 255);
+}
+#page{
+  background-color: rgb(189, 255, 255);
+}
+#main-wrapper{
+  background-color: rgb(189, 255, 255);
+}
+body , html{
+  background-color: rgb(189, 255, 255);
+}
+.interior-page .interior-layout{
+  background-color: rgb(189, 255, 255);
+}
+.path-frontpage .frontpage-layout{
+background-color: rgb(189, 255, 255);}
+.path-frontpage .navbar-region{
+  background-color: rgb(231, 255, 255);
+}
+.site-footer{
+  margin-top: 0em;
+}
+.navbar-nav{
+    background-color: rgb(231, 255, 255);
+}
+.interior-page{
+    background-color: #f9e8f9;
+
+}
+.interior-page .interior-layout{
+   background-color: rgb(231, 255, 255);
+
+}
+.nav a{
+  color: blue;
+}
+.path-frontpage #main-wrapper {
+  background: transparent;
+    background-color: transparent;
+  background-color: #f9e8f9;
+}
+ #main-wrapper {
+    background-color: #f9e8f9;
+
+ }
+  @import url('https://fonts.cdnfonts.com/css/roboto');
+ @import url('https://fonts.cdnfonts.com/css/playfair-display-sc');
+
+ body{
+  font-family: 'Roboto', sans-serif;
+ }
+ p{
+  font-family: 'Roboto', sans-serif;
+ }
+ h1, h2, h3, h4, h5, h6{
+  font-family: 'Playfair Display SC', sans-serif;
+                                                
+ }
