@@ -1,0 +1,51 @@
+{% macro href(target) %}
+  {% set root = path('<front>') %}
+  {{- root ~ (root ends with '/' ? '' : '/') ~ (target|trim('/')) -}}
+{% endmacro %}
+
+{% import _self as menu %}
+
+<nav class="shr-nested-menu" aria-label="nyheter">
+  <ul class="navbar-nav">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="{{ menu.href('/nyheter') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Nyheter</a>
+      <ul class="dropdown-menu">
+        <li class="dropdown-submenu">
+          <a class="dropdown-item dropdown-toggle" href="{{ menu.href('/aktuellt') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Aktuellt</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/blabarshoppning-6-juni') }}">Blåbärshoppning 6 juni</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/hastfest-24-maj') }}">Hästfest 24 maj</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/infor-ht-2026') }}">Inför HT 2026</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/km-i-dressyr-14-maj') }}">KM i dressyr 14 maj</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/panta-med-oss') }}">Panta med oss!</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/payn-jump-26-april-prelstartlista') }}">Pay´n jump 26 april prel.startlista</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/vill-du-bli-medryttare-pa-en-av-vara-hastar') }}">Vill du bli medryttare på en av våra hästar?</a></li>
+          </ul>
+        </li>
+        <li><a class="dropdown-item" href="{{ menu.href('/DF') }}">DF</a></li>
+        <li><a class="dropdown-item" href="{{ menu.href('/planering/lektionsschema-vt-2026') }}">Lektionsschema vt 2026</a></li>
+        <li class="dropdown-submenu">
+          <a class="dropdown-item dropdown-toggle" href="{{ menu.href('/planering') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Planering</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ menu.href('/Cafelistor%20vt%2026') }}">Cafelistor vt 26</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-submenu">
+          <a class="dropdown-item dropdown-toggle" href="{{ menu.href('/Traning-och-Tavlings-nyheter') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Träning och Tävlings nyheter</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/halloweenhoppning-prelstartlista') }}">Halloweenhoppning - Prel.startlista</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/hopptraning-lotta-wahlborg-5-januari') }}">Hoppträning för Lotta Wahlborg 5 januari</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/hopptraning-nina-rasmusson') }}">Hoppträning för Nina Rasmusson</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/jullovshoppning-prelstartlista') }}">Jullovshoppning - prel.startlista</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/km-i-hoppning-13-nov-lektionshastponny') }}">KM i hoppning 13 nov - Lektionshäst/ponny</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/km-i-hoppning-13-november-privathastponny') }}">KM i hoppning 13 november - Privathäst/ponny</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/km-i-hoppning-131-prelstartlista') }}">KM i hoppning 13/1 prel.startlista</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/lank-till-riksidrottsforbundet') }}">Länk till Riksidrottsförbundet</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/resultat-km-i-hoppning') }}">Resultat KM i hoppning</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/nyheter/tappskokurs-2712-eller-31') }}">Tappskokurs 27/12 eller 3/1</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
