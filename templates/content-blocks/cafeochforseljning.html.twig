@@ -1,0 +1,22 @@
+{% macro href(target) %}
+  {% set root = path('<front>') %}
+  {{- root ~ (root ends with '/' ? '' : '/') ~ (target|trim('/')) -}}
+{% endmacro %}
+
+{% import _self as menu %}
+
+<nav class="shr-nested-menu" aria-label="cafeochförseljning">
+  <ul class="navbar-nav">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="{{ menu.href('/försäljning') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Försäljing/Cafe</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="{{ menu.href('/Anläggningskort') }}">Anläggningkort</a></li>
+        <li><a class="dropdown-item" href="{{ menu.href('/bingolotter') }}">Bingolotter</a></li>
+        <li><a class="dropdown-item" href="{{ menu.href('/idrottsrabbaten') }}">Idrottsrabatten</a></li>
+        <li><a class="dropdown-item" href="{{ menu.href('/klubbkläder') }}">Klubbkläder</a></li>
+        <li><a class="dropdown-item" href="{{ menu.href('/prislista%202026-01-01') }}">Prislista 2026-01-01</a></li>
+        <li><a class="dropdown-item" href="{{ menu.href('/swish') }}">swish</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>

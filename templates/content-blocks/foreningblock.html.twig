@@ -1,0 +1,56 @@
+{% macro href(target) %}
+  {% set root = path('<front>') %}
+  {{- root ~ (root ends with '/' ? '' : '/') ~ (target|trim('/')) -}}
+{% endmacro %}
+
+{% import _self as menu %}
+
+<nav class="shr-nested-menu" aria-label="föreningblock">
+  <ul class="navbar-nav">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="{{ menu.href('/förening') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Förening</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="{{ menu.href('/faciliteter') }}">Faciliteter</a></li>
+        <li class="dropdown-submenu">
+          <a class="dropdown-item dropdown-toggle" href="{{ menu.href('/personal') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Personal</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ menu.href('/träningochtävling') }}">Träning/Tävlings sektionen</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/usstyrelse') }}">US Styrelse</a></li>
+          </ul>
+        </li>
+        <li><a class="dropdown-item" href="{{ menu.href('/anläggningskiss') }}">Anläggning skiss och vägbeskrivning</a></li>
+        <li><a class="dropdown-item" href="{{ menu.href('/anläggning') }}">Anläggning</a></li>
+        <li class="dropdown-submenu">
+          <a class="dropdown-item dropdown-toggle" href="{{ menu.href('/hästar') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Hästar</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ menu.href('/Hästarsomhar') }}">Hästar som har varit hos oss</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/vårahästar') }}">Våra Hästar</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-submenu">
+          <a class="dropdown-item dropdown-toggle" href="{{ menu.href('/sponsring') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Sponsring</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ menu.href('/blisponsor') }}">Hur blir man sponsor?</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/sponsorerbjudanden') }}">Sponsorerbjudanden</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/sponsorhuset') }}">Sponsorhuset</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/varförsponsra') }}">Varför Sponsra?</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/stödjer') }}">Vi som stödjer Stora Höga Ridklubb</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-submenu">
+          <a class="dropdown-item dropdown-toggle" href="{{ menu.href('/trygghetsäkerhet') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Trygghet och Säkerhet</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ menu.href('/alkoholdrogpolicy') }}">Alkohol-och drogpolicy</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/gdpr') }}">GDPR</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/miljöpolicy') }}">Miljöpolicy</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/policyregisterutdrag') }}">Policy för hantering av registerutdrag</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/policysocialmedia') }}">Policy om socialamedier</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/stadgar') }}">Stadgar</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/vadsomgäller') }}">Vad som gäller vid ridning</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/visionvärdegrund') }}">Vision och värdegrund</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
