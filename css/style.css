@@ -975,3 +975,33 @@ background-color: rgb(189, 255, 255);}
   font-family: 'Playfair Display SC', sans-serif;
                                                 
  }
+
+ /* Gör så att undermenyer kan ligga bredvid sin förälder */
+ .dropdown-submenu {
+   position: relative;
+ }
+
+ /* Flytta nästa nivå åt höger */
+ .dropdown-submenu > .dropdown-menu {
+   top: 0;
+   left: 100%;
+   margin-top: -0.25rem;
+ }
+
+ /* Visa undermeny vid hover/fokus */
+ .dropdown-submenu:hover > .dropdown-menu,
+.dropdown-submenu:focus-within > .dropdown-menu {
+  display: block;
+}
+
+/* Gör pilen snyggare på undermenyer */
+.dropdown-submenu > .dropdown-toggle::after {
+  float: right;
+  margin-top: 0.55rem;
+  transform: rotate(-90deg);
+}
+
+/* Valfritt: lite tydligare meny */
+.shr-menu .dropdown-menu {
+  min-width: 220px;
+}

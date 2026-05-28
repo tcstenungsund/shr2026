@@ -1,0 +1,59 @@
+{#
+/**
+ * Meny: Cafe och försäljning
+ * Filnamnet måste matcha menyns machine name.
+ */
+#}
+
+{% import _self as menus %}
+
+{{ menus.menu_links(items, attributes, 0) }}
+
+{% macro menu_links(items, attributes, level) %}
+  {% import _self as menus %}
+
+  {% if items %}
+    {% if level == 0 %}
+      <ul{{ attributes.addClass('navbar-nav', 'shr-menu', 'shr-menu-cafe') }}>
+    {% else %}
+      <ul class="dropdown-menu">
+    {% endif %}
+
+    {% for item in items %}
+      {% set has_children = item.below is not empty %}
+
+      {% set li_classes = [
+        level == 0 ? 'nav-item' : '',
+        has_children ? 'dropdown' : '',
+        level > 0 and has_children ? 'dropdown-submenu dropend' : '',
+        item.in_active_trail ? 'active' : ''
+      ] %}
+
+      <li{{ item.attributes.addClass(li_classes) }}>
+        {% if has_children %}
+          <a
+            href="{{ item.url }}"
+            class="{{ level == 0 ? 'nav-link dropdown-toggle' : 'dropdown-item dropdown-toggle' }}"
+            role="button"
+            data-bs-toggle="dropdown"
+            data-bs-auto-close="outside"
+            aria-expanded="false"
+          >
+            {{ item.title }}
+          </a>
+
+          {{ menus.menu_links(item.below, create_attribute(), level + 1) }}
+        {% else %}
+          <a
+            href="{{ item.url }}"
+            class="{{ level == 0 ? 'nav-link' : 'dropdown-item' }}"
+          >
+            {{ item.title }}
+          </a>
+        {% endif %}
+      </li>
+    {% endfor %}
+
+    </ul>
+  {% endif %}
+{% endmacro %}
