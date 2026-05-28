@@ -1,0 +1,35 @@
+{% macro href(target) %}
+  {% set root = path('<front>') %}
+  {{- root ~ (root ends with '/' ? '' : '/') ~ (target|trim('/')) -}}
+{% endmacro %}
+
+{% import _self as menu %}
+
+<nav class="shr-nested-menu" aria-label="ridskolablock">
+  <ul class="navbar-nav">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="{{ menu.href('/ridskola') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Ridskola</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="{{ menu.href('/barnkalas') }}">Barnkalas</a></li>
+        <li class="dropdown-submenu">
+          <a class="dropdown-item dropdown-toggle" href="{{ menu.href('/träning') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Träning</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ menu.href('/hoppträning') }}">Hoppträning Nina Rasmuson</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/privatträning') }}">Privat träning</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/ridläger2026') }}">Ridläger sommaren 2026</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/we') }}">WE</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-submenu">
+          <a class="dropdown-item dropdown-toggle" href="{{ menu.href('/tävling') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Tävling</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ menu.href('/tävlarilag') }}">De är vi som tävlar i lag</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/ryttaresresultat') }}">Egna ryttares resultat</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/licens') }}">Vi har löst licens</a></li>
+            <li><a class="dropdown-item" href="{{ menu.href('/tävlingsryttare') }}">Årets tävlingsryttare</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>

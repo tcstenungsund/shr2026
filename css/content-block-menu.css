@@ -1,0 +1,102 @@
+.shr-nested-menu {
+  position: relative;
+  z-index: 1000;
+  width: 100%;
+  min-width: 0;
+}
+
+.shr-nested-menu,
+.shr-nested-menu * {
+  box-sizing: border-box;
+}
+
+.shr-nested-menu .navbar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.shr-nested-menu .nav-item,
+.shr-nested-menu .dropdown-submenu {
+  position: relative;
+}
+
+.shr-nested-menu .nav-link,
+.shr-nested-menu .dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.45rem 0.75rem;
+  color: #000000 !important;
+  text-decoration: none;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.shr-nested-menu .nav-link:hover,
+.shr-nested-menu .nav-link:focus,
+.shr-nested-menu .dropdown-item:hover,
+.shr-nested-menu .dropdown-item:focus {
+  color: #000000 !important;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.shr-nested-menu .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.shr-nested-menu .dropdown-menu {
+  display: none;
+  position: absolute !important;
+  top: 100% !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: 0 !important;
+  transform: none !important;
+  float: none;
+  z-index: 1050;
+  width: max-content;
+  min-width: 100%;
+  max-width: min(24rem, calc(100vw - 2rem));
+  margin: 0;
+  padding: 0.25rem 0;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 0.375rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.18);
+}
+
+.shr-nested-menu .dropdown-menu.show {
+  display: block;
+}
+
+.shr-nested-menu .dropdown-submenu > .dropdown-menu {
+  top: 0 !important;
+  left: 100% !important;
+  margin: 0 0 0 0.25rem;
+  border-left: 0.2rem solid rgba(0, 0, 0, 0.12);
+}
+
+.block:has(.shr-nested-menu),
+.region:has(.shr-nested-menu),
+.frontpage-layout:has(.shr-nested-menu),
+.main-content:has(.shr-nested-menu),
+.interior-region:has(.shr-nested-menu),
+.interior-layout:has(.shr-nested-menu) {
+  overflow: visible;
+}
+
+@media (max-width: 48rem) {
+  .shr-nested-menu .dropdown-submenu > .dropdown-menu {
+    top: 100% !important;
+    left: 0 !important;
+    margin: 0;
+  }
+}
