@@ -789,3 +789,6 @@ background-color: rgb(189, 255, 255);}
  .nav a{
   color: white;
 }
+.path-frontpage .frontpage-navbar-inner a, .path-frontpage .frontpage-navbar-inner .nav-link, .path-frontpage .frontpage-navbar-inner .dropdown-item{
+  color: #ffffff !important;
+}
